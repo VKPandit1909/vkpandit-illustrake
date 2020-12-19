@@ -1,0 +1,123 @@
+html, body, #root, .App, .ant-row {
+    height: 100%;
+    font-family: 'SF Pro Display';
+}
+.main {
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    /* background-color: aqua; */
+}
+.vertical-bottom {
+    /* align-self: flex-end; */
+    position: absolute;
+    bottom: 30px;
+    right: 100px;
+    left: 100px;
+}
+.p-50-100 {
+    padding: 50px 100px;
+}
+.bg-clr {
+    background: #73D13D;
+}
+.imgdiv {
+    background-image: url("/src/images/Maskimg.svg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-dark-clr {
+    background: #49AA19;
+}
+.dark-mode, .dark-mode .ant-input {
+    background: #1D1D1D;
+}
+.dark-mode-clr {
+    color: #FFFFFF;
+}
+.dark-mode-clr label, .dark-mode-color {
+    color: #DBDBDB;
+}
+.imgDarkdiv {
+    background-image: url("/src/images/MaskDarkimg.svg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.circle-div {
+    border-radius: 50%;
+    padding: 8px 15px;
+    background-color: #389E0D;
+    color: #fff;
+    margin: 0px;
+    margin-right: 10px;
+}
+.w-50 {
+    width: 50%;
+    height: auto;
+}
+.w-48 {
+    width: 48%;
+    height: auto;
+}
+.flex-between {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.mb-100 {
+    margin-bottom: 100px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+.mb-0 {
+    margin-bottom: 0px;
+}
+.pt-30 {
+    padding-top: 30px;
+}
+.pt-20 {
+    padding-top: 10px;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #73D13D;
+    border-color: #73D13D;
+}
+.main-clr {
+    color: #73D13D;
+}
+.second-clr {
+    color: #BFBFBF;
+}
+.second-dark-clr, .dark-mode::placeholder, .dark-mode .ant-input-password-icon {
+    color: #5A5A5A;
+}
+.border-clr {
+    border-color: #5A5A5A;
+}
+.text-line {
+    text-decoration: underline;
+}
+.bold-clr {
+    font-weight: 600;
+}
+.light-bold-clr {
+    font-weight: 500;
+}
+.ta-left {
+    text-align: left;
+}
+.mb-30 {
+    margin-bottom: 30px;
+}
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
